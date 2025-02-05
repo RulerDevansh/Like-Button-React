@@ -10,14 +10,16 @@ export default function LikeToggle () {
     let [isLike,setLike] = useState(false);
     let toggle = ()=>{
         console.log("Like Toggled!!");
-        if (isLike==false) {
-            setLike(true);
-            console.log(isLike);
-        }
-        else {
-            setLike(false);
-            console.log(isLike);
-        }
+        // if (isLike==false) {
+        //     setLike(true);
+        //     console.log(isLike);
+        // }
+        // else {
+        //     setLike(false);
+        //     console.log(isLike);
+        // }
+        //or 
+        setLike(!isLike);
     }
     
     return (
