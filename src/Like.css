@@ -1,0 +1,41 @@
+.likecount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+
+.zoom-in-out-element {
+  font-size: 2rem;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.likecount:active .zoom-in-out-element{
+  animation: zoom-in-zoom-out-click .25s ease 1;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    scale: 100%;
+  }
+  50% {
+    scale: 150%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
+@keyframes zoom-in-zoom-out-click {
+  0% {
+    scale: 100%;
+    color: red;
+  }
+  50% {
+    scale: 200%;
+    color: red;
+  }
+  100% {
+    scale: 100%;
+    color: none;
+  }
+}
