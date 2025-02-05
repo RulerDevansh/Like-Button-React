@@ -1,13 +1,13 @@
 {
-  "homepage": "https://RulerDevansh.github.io/Like-Button-React",
+  "homepage": "https://RulerDevansh.github.io/Like-Button-React/",
   "name": "like-button",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "perdeploy":"npm run build",
+    "deploy":"gh-pages -d GhPages",
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
