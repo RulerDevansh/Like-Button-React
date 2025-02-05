@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 export default function LikeCount ({fun}){
     return (
-        <div className="likecount">
+        <div className="likechttps://github.com/RulerDevansh/Like-Button-React.gitount">
             <button onClick={fun} style={{width:"50%",}}>Like!!</button>
             <FontAwesomeIcon className="zoom-in-out-element" icon={i.faHeart} />
         </div>
