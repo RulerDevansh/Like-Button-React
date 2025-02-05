@@ -5,8 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "perdeploy":"npm run build",
-    "deploy":"gh-pages -d GhPages",
+    "perdeploy": "npm run build",
+    "deploy": "gh-pages -d Ghpages",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
