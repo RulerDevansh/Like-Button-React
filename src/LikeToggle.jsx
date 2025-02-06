@@ -21,7 +21,6 @@ export default function LikeToggle () {
         //or 
         setLike(!isLike);
         console.log(isLike);
-        
     }
     
     return (

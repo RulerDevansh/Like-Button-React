@@ -11,6 +11,9 @@ function App() {
         setcount(++count);
         console.log(count);
     }
+  console.log("App Component Rendered");
+  
+  // The above way is not that good as the full app re-renders when count is updated (so the right approach will be to define count inside likecount componenet)     
   return (
     <>
       <h1>LIKE COUNTER</h1>
